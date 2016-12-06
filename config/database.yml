@@ -12,7 +12,7 @@ development:
 
 test: &test
   adapter: postgresql
-  database: travis_ci_test
+  database: cloud66_test
 
 cucumber:
   <<: *test
