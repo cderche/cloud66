@@ -3,6 +3,7 @@ class HomeController < ApplicationController
   end
 
   def status
+    puts "Providing status update."
     head :ok
   end
 end
