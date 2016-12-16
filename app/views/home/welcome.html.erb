@@ -1,4 +1,5 @@
 <ul style="list-style: none">
   <li>Application: <b><%= ENV['HEROKU_APP_NAME'] %></b></li>
   <li>Dyno: <b><%= ENV['HEROKU_DYNO_ID'] %></b></li>
+  <li>Original URL: <b><%= request.original_url %></b></li>
 </ul>
